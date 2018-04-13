@@ -6,7 +6,7 @@ The scripts in this repository enables to index and align a Bovine NGS dataset w
 
 # Details
 
-Before running, please ppen the scripts and customize for the amount of cores (threads) in your platform.
+Before running, please open the scripts and customize for the amount of cores (threads) in your platform.
 
 ## make_bgumd31.sh
 
@@ -14,7 +14,7 @@ Use the script to index the UMD3.1.1 Bovine Genome with the HISAT2 software.
 
 ## run_Hisat2.sh
 
-Use the script to map a directory with (cleaned) reads and the index built from the previous step.
+Use the script to map the cleaned reads with the genome index built from the previous script.
 
 ## install_ReSeQC.sh
 
