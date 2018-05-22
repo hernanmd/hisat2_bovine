@@ -1,11 +1,14 @@
 #!/bin/sh
 
 # Automate HISAT2 index build for Bovine genome (UMD 3.1.1 assembly)
-# Author: Hernan Morales Durand <hernan.morales@gmail.com>
+# Author: 
+#  Hernan Morales Durand <hernan.morales@gmail.com>
+#  Tatiana Zieglert
 # Requires chromosome list files and exon/ss files to be already present in the current directory
 
 # Threads setting
 threads=32
+
 
 # Uncompress exon/ss files
 tar zxvf GCF_HISAT2.tar.gz
